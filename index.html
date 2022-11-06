@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,22 +24,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    About me
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Home</a>
-                    <a class="dropdown-item" href="#">Work</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Contact</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -49,21 +45,141 @@
 
 <body class="container">
     <!--Jumbotron-->
-    <div class="jumbotron">
+    <div class="jumbotron" id="home">
         <h1 class="display-4">Talha Shaikh</h1>
         <br>
-        <img src="./css/images/Black Modern Minimal Corporate Personal Profile LinkedIn Banner.png" alt="banner" width="1050px">
+        <img src="./css/images/Black Modern Minimal Corporate Personal Profile LinkedIn Banner.png" alt="banner"
+            width="1050px">
         <hr class="my-4">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis sit vero exercitationem ad vitae cupiditate inventore ea magnam illum accusantium enim aspernatur itaque mollitia incidunt, quos distinctio? Animi, et.
-        Dolores obcaecati quod illum aliquam minus enim molestias earum quae culpa minima pariatur autem aspernatur doloremque, velit iure. Iusto reprehenderit quasi consequuntur porro consectetur earum quo ex in inventore illum!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
-    <main class="container">
-        <section class="row">
-            <h3>About me</h3>
-            <img src="./css/images/no-bg-me.png" alt="me">
-        </section>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis sit vero exercitationem ad vitae
+            cupiditate inventore ea magnam illum accusantium enim aspernatur itaque mollitia incidunt, quos distinctio?
+            Animi, et.
+            Dolores obcaecati quod illum aliquam minus enim molestias earum quae culpa minima pariatur autem aspernatur
+            doloremque, velit iure. Iusto reprehenderit quasi consequuntur porro consectetur earum quo ex in inventore
+            illum!</p>
+        <a class="btn btn-primary center btn-lg" href="#" role="button">Learn more</a>
+    </div> 
+
+    <main class="Work" id="work">
+        <div class="col text-center nb-3">
+            <h3 class="display-2">Work</h3>
+            <br>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./css/images/pexels-anni-roenkae-3219899.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./css/images/pexels-anni-roenkae-3219899.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./css/images/pexels-anni-roenkae-3219899.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./css/images/pexels-anni-roenkae-3219899.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <section class="skills" id="skills">
+                <div class="container-fluid">
+                    <!--title-->
+                    <div class="row">
+                        <div class="col text-center nb-3">
+                            <h3 class="display-2">Skills</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum harum natus
+                                inventore veniam eos nulla similique nam necessitatibus, quos laudantium provident
+                                commodi vel esse sequi totam modi ipsa itaque!</p>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h3>HTML</h3>
+                            <span class="material-icons">
+                                code
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam perferendis molestias, eveniet molestiae ad laboriosam quaerat reprehenderit sapiente. Illum architecto sed nisi.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3>CSS</h3>
+                            <span class="material-icons-outlined">
+                                css
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iusto sit ut molestias, ex eaque debitis a quo, voluptate deleniti ea nobis. Eum numquam impedit suscipit explicabo odit consectetur commodi!</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h3>JavaScript</h3>
+                            <span class="material-icons-outlined">
+                                javascript
+                                </span>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum debitis qui commodi natus quam quod, ducimus porro quo ipsa cumque dolorum accusantium fuga delectus minus neque amet velit dolores ea.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body" id="about">
+                      <h3 class="card-title">About Me</h3>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, officia? Odit, officiis dolores, odio corrupti eligendi dolor alias consequatur aperiam harum excepturi incidunt dicta quo distinctio animi a! Vel, tempore!
+                      At minus sint id dicta, harum autem doloribus. Illum expedita adipisci voluptatum reiciendis nihil, iste vitae, molestias illo voluptas nisi minus, magni deleniti officia odit recusandae cum dolorem itaque suscipit?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body" id="contact">
+                      <h3 class="card-title">Contact</h3>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorum in, esse quos nostrum voluptate iste accusantium totam dolor deserunt, modi facilis reiciendis rerum consequatur? Ducimus autem ex non accusamus.
+                      Reiciendis, voluptatum dolore fugiat distinctio cum saepe ut dicta laudantium veritatis deleniti nihil tenetur sit iusto eaque quas esse et pariatur velit! Quo, saepe totam. Officia, error? Similique, fuga inventore!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </main>
 </body>
 
+<br>
+<br>
+
+<footer>
+    <p>&copy;Teeshay 2022</p>
+</footer>
 </html>
